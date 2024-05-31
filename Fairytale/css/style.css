@@ -1,0 +1,92 @@
+@import "ZeroList.css";
+@font-face {
+  font-family: "TwinkleStar-Regular";
+  src: url("../fonts/TwinkleStar-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "madelikesslab";
+  src: url("../fonts/madelikesslab.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+body {
+  background: url("../img/back.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  width: 100%;
+  align-items: center;
+  background: burlywood;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  font-family: "madelikesslab";
+}
+
+.logo {
+  font-size: 30px;
+  margin-left: 30px;
+  width: 30%;
+}
+
+.nav {
+  height: 100%;
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contentContainer {
+  padding: 60px;
+  width: 80%;
+  background: rgba(202, 200, 200, 0.8);
+  height: 75%;
+  margin: 0 auto;
+  margin-top: 140px;
+  margin-bottom: 70px;
+  border-radius: 60px;
+  font-size: 25px;
+  overflow: auto;
+  font-family: "madelikesslab";
+}
+
+.firstBlock,
+.secondBlock,
+.thirdBlock {
+  width: 100%;
+  height: 600px;
+}
+
+.contentContainer::-webkit-scrollbar {
+  width: 10px;
+}
+
+.flexBlock {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.flexBlock .leftBlock,
+.flexBlock .rightBlock {
+  width: 50%;
+  height: 100%;
+}
+.flexBlock .leftBlock img,
+.flexBlock .rightBlock img {
+  height: 70%;
+  width: 70%;
+  margin-left: 15%;
+  border-radius: 20px;
+}/*# sourceMappingURL=style.css.map */
